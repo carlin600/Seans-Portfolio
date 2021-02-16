@@ -1,0 +1,5 @@
+Rules & Information for Number Mastermind!
+
+1.You MUST enter your name before starting the game. 
+2.You have MAXIMUM of 8 Tries/Goes before its Game Over.
+3.You must figure out the random 4-digit combination.
