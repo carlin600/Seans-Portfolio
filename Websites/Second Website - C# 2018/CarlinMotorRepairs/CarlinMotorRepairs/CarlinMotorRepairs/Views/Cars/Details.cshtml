@@ -1,0 +1,74 @@
+﻿@model CarlinMotorRepairs.Models.Car
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details Of Workshop Job</h2>
+
+<div>
+    <h4>Job Details</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.JobNo)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.JobNo)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.CarOwner)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CarOwner)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.CarMake)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CarMake)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.JobDesc)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.JobDesc)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ReceivedOn)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ReceivedOn)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.JobStatus)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.JobStatus)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Price)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Price)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.ID }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

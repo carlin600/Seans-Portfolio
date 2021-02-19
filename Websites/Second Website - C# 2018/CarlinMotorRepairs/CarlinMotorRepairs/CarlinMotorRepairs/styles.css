@@ -1,0 +1,128 @@
+﻿.body {
+
+    background-color: #ADD8E6;
+    color: black;
+
+}
+
+
+/*didnt want everything to be centered, especially input database, which is why it isnt in body class.*/
+.center {
+    text-align: center;
+}
+
+/*Colour Scheme*/
+.CScheme{
+    background-color: whitesmoke;
+    color: black;
+
+
+}
+.black{
+    color:black;
+    background-color:black;
+}
+
+
+
+/*IMAGE OVERLAY EFFECT - 'New Cars' Webpage*/
+.containerCar{
+    position: relative;
+    width:480px;
+    height:240px;
+    display: inline-block;
+}
+.image{
+    display: block;
+    width: 480px;
+    height:240px;
+}
+.image2{
+    width: 740px;
+    height:570px;
+}
+.overlay{
+    position:absolute;
+    transition: all .8s ease;
+    opacity: 0;
+    background-color: white;
+}
+.container:hover .overlay {
+    opacity: 0.75;
+}
+.overlayLeft{
+    height: 100%;
+    width: 0;
+    top:0;
+    left: 0;
+    background-color:whitesmoke;
+}
+.overlayRight {
+    height: 100%;
+    width: 0;
+    top: 0;
+    right: 0;
+    background-color: whitesmoke;
+}
+.container:hover .overlayLeft, .container:hover .overlayRight {
+    width: 100%;
+}
+.overlayTop {
+    height: 0;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    background-color: whitesmoke;
+}
+.overlayBottom {
+    height: 0;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: whitesmoke;
+}
+.container:hover .overlayTop, .container:hover .overlayBottom {
+    height: 100%;
+}
+.text{
+    color: black;
+    font-family: sans-serif;
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 25px;
+}
+/*END OF IMAGE OVERLAY EFFECT*/
+
+
+/* IMAGE CAROUSEL */
+.carousel-inner img {
+    width: 100%;
+    height: auto;
+}
+
+.carousel-inner {
+    width: 100%;
+    height: auto;
+}
+
+
+
+/* CONTACT US PAGE - google maps for Carlin Motor Repairs' Workshop & Dealership*/
+
+.map-responsive {
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    position: center;
+    height: 0;
+    background-color: lightblue;
+}
+
+.cmrLocation iframe {
+    margin: 0 auto;
+    display: block;
+    height: 720px;
+    width: 1280px;
+    position: center;
+    background-color: lightblue;
+}

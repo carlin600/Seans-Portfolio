@@ -1,0 +1,70 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <link rel="shortcut icon" href="images/vw.png"/>
+    <link href="~/styles.css" rel="stylesheet"/>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - Carlin Motor Repairs</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+
+</head>
+<body class="body">
+
+    <div class="navbar navbar-fixed-top CScheme">
+        <div class="container">
+            <div class="navbar-header">
+                <img alt="logo" src="/images/vw.png">
+               
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                @Html.ActionLink("  ", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
+            </div>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    @{Html.RenderAction("Index", "ManagePartialMenu");}
+                  
+
+                </ul>
+                @Html.Partial("_LoginPartial")
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid black"></div>
+<div class="container body-content">
+    @RenderBody()
+    <hr/>
+    <footer>
+        <div class="col-sm-4 center">
+            <img alt="logo" src="/images/vw.png">
+
+        </div>
+        <div class="col-sm-4">
+            <address>
+                Donnelly Volkswagen Eglinton <br/>
+                Campsie Industrial Estate, <br />
+                McLean Rd, Eglinton, <br />
+                County Derry <br />
+                BT47 3DN<br />
+            </address>
+
+        </div>
+        <div class="col-sm-4">
+            <p>&copy; @DateTime.Now.Year - Carlin Motor Repairs - Sean Carlin NWRC</p> 
+
+        </div>
+    </footer>
+    <div class="container-fluid "> <br/></div>
+
+
+</div>
+
+@Scripts.Render("~/bundles/jquery")
+@Scripts.Render("~/bundles/bootstrap")
+@RenderSection("scripts", required: false)
+</body>
+</html>

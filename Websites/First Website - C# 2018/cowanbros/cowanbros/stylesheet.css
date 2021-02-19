@@ -1,0 +1,112 @@
+﻿
+/* MASTER PAGE */
+body {
+background-color: transparent; 
+border-width: 0; 
+margin: 0; 
+padding: 0;
+}
+
+.links {
+    display: block;
+    padding: 0;
+    text-align: center;
+    color: white;
+}
+.logo {
+    width: 60px;
+    height: 60px;
+}
+
+/*  SIZING */
+.w-450 {
+    width: 450px;
+}
+
+.brandlogo {
+    width: 177px;
+    height: 69px;
+}
+
+
+/* COLOURS */
+.white {
+    background-color: white
+}
+.wt /*white text*/ {
+    color: white;
+}
+.orange {
+    color: #212529;
+    background-color: #ffc107;
+    border-color: #ffc107
+}
+.red {
+    color: black;
+    background-color: #dc3545;
+    border-color: #dc3545
+}
+.grey {
+    background-color: #343a40;
+}
+.gt {
+    color: #343a40;
+}
+.info {
+    background-color: lavender;
+}
+
+/* IMAGE CAROUSEL */
+.carousel-inner img {
+    width: 100%;
+    height: auto;
+}
+
+.carousel-inner {
+    width: 100%;
+    height: auto;
+}
+
+
+
+.margin_0_and_padding_0 {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+/* CONTACT US PAGE */
+
+.map-responsive {
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    position: relative;
+    height: 0;
+    background-color: lavender;
+}
+
+.cowansLocation iframe {
+    margin: 0 auto;
+    display: block;
+    height: 720px;
+    width: 1280px;
+    position: center;
+    background-color: lavender;
+}
+
+
+
+
+
+
+/* OTHER */
+.img {
+    max-width: 100%;
+    height: auto;
+}
+.btn-block {
+    display: block;
+}
+
+

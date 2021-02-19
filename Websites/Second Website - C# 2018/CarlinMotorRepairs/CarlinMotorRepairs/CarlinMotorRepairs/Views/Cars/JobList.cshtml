@@ -1,0 +1,75 @@
+﻿@model IEnumerable<CarlinMotorRepairs.Models.Car>
+
+@{
+    ViewBag.Title = "JobList";
+}
+
+<h2>Our current Jobs</h2>
+<p>Here you can see the current workshops jobs in numerical order, if theres too much to scroll through, you can simple type in your name to find your car. If you have any enquiries please contact us.</p>
+<a class="btn btn-primary btn-sm center" @Html.ActionLink("Contact", "Contact", "Home") </a> <br>   <br>
+
+<p>
+
+    @using (Html.BeginForm())
+    {
+    <p>
+        Search By Owner: @Html.TextBox("SearchString")
+        <input type="submit" value="Filter" /><br /><br />
+    </p>
+}
+
+    <table class="table">
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.JobNo)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CarOwner)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CarMake)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.JobDesc)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ReceivedOn)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.JobStatus)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Price)
+            </th>
+            <th></th>
+        </tr>
+
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.JobNo)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.CarOwner)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.CarMake)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.JobDesc)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.ReceivedOn)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.JobStatus)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Price)
+                </td>
+                <td></td>
+            </tr>
+        }
+
+    </table>

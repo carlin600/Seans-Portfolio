@@ -1,0 +1,49 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<div class="container-fluid center">
+    <h1>Carlin Motor Repairs</h1>
+    <img alt="logo" src="/images/vw.png"><br><br>
+
+    <video class="img-rounded img-responsive cmrLocation" src="videos/debutVideo.mp4" controls autoplay loop>⁪</video> <br />
+
+    <h3>Want to know more about our available range and services? Simply follow the directions when you click the link provided.    </h3>
+    <br>
+    <a class="btn btn-primary center" @Html.ActionLink("Contact", "Contact", "Home") </a> <br>   <br>
+
+</div>
+
+<div class="row center">
+    <br>
+    <div class="col-md-4">
+        <h2>Volkswagen Range</h2>
+        <p>
+            Want to have a look at a Brand New Volkswagen? View our range available to you!
+        </p>
+        <br>
+        <p>
+            <a class="btn btn-primary" @Html.ActionLink("Volkswagen Range", "NewCars", "Home") </a>
+        </p>
+    </div>
+
+    <div class="col-md-4">
+        <h2>Workshop Status</h2>
+        <p>Want an update on your vehicle repair? Just click the link and you'll be able to view the workshop status in no time!</p>
+        <br>
+        <p>
+            <a class="btn btn-primary" @Html.ActionLink("Workshop Status", "JobList", "Cars")  </a>
+        </p>
+    </div>
+
+    <div class="col-md-4">
+        <h2>About Us</h2>
+        <p>Want to know more about Carlin Motor repairs? Click the link!</p>
+            <a class="btn btn-primary" @Html.ActionLink("About Us", "About", "Home")</a>
+        <br>
+    </div>
+
+</div>
+
+
+ 
