@@ -1,0 +1,4 @@
+[{"title": "Noelle","brand": "Disney","availability": ["US", "CA", "FR", "ES", "DE"],"availableDate": "2019-11-02T23:00:00.000Z","isKidsContent": true,"popularityScore": 90,"contentType": "movie"}, {"title": "The Simpsons: Radio Bart", "brand": "21st Century Fox", "availability": ["US", "CA", "FR", "ES"], "availableDate": "2019-11-12T05:00:00.000Z", "isKidsContent": false, "popularityScore": 60, "contentType": "series"}]
+{"Star Wars": "like", "Disney": "dislike", "Marvel": "like", "Pixar": "like", "21st Century Fox": "like"}
+{"movie": "dislike", "series": "adore", "short": "love"}
+["The Simpsons: Radio Bart", "Noelle"]

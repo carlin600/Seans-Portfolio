@@ -1,0 +1,11 @@
+C:\Users\Temporary\OneDrive - Edge Hill University\Employability - CIS2162\KanbanConsoleApp\KanbanConsoleApp\bin\Debug\netcoreapp3.1\KanbanConsoleApp.exe
+C:\Users\Temporary\OneDrive - Edge Hill University\Employability - CIS2162\KanbanConsoleApp\KanbanConsoleApp\bin\Debug\netcoreapp3.1\KanbanConsoleApp.deps.json
+C:\Users\Temporary\OneDrive - Edge Hill University\Employability - CIS2162\KanbanConsoleApp\KanbanConsoleApp\bin\Debug\netcoreapp3.1\KanbanConsoleApp.runtimeconfig.json
+C:\Users\Temporary\OneDrive - Edge Hill University\Employability - CIS2162\KanbanConsoleApp\KanbanConsoleApp\bin\Debug\netcoreapp3.1\KanbanConsoleApp.runtimeconfig.dev.json
+C:\Users\Temporary\OneDrive - Edge Hill University\Employability - CIS2162\KanbanConsoleApp\KanbanConsoleApp\bin\Debug\netcoreapp3.1\KanbanConsoleApp.dll
+C:\Users\Temporary\OneDrive - Edge Hill University\Employability - CIS2162\KanbanConsoleApp\KanbanConsoleApp\bin\Debug\netcoreapp3.1\KanbanConsoleApp.pdb
+C:\Users\Temporary\OneDrive - Edge Hill University\Employability - CIS2162\KanbanConsoleApp\KanbanConsoleApp\obj\Debug\netcoreapp3.1\KanbanConsoleApp.csprojAssemblyReference.cache
+C:\Users\Temporary\OneDrive - Edge Hill University\Employability - CIS2162\KanbanConsoleApp\KanbanConsoleApp\obj\Debug\netcoreapp3.1\KanbanConsoleApp.AssemblyInfoInputs.cache
+C:\Users\Temporary\OneDrive - Edge Hill University\Employability - CIS2162\KanbanConsoleApp\KanbanConsoleApp\obj\Debug\netcoreapp3.1\KanbanConsoleApp.AssemblyInfo.cs
+C:\Users\Temporary\OneDrive - Edge Hill University\Employability - CIS2162\KanbanConsoleApp\KanbanConsoleApp\obj\Debug\netcoreapp3.1\KanbanConsoleApp.dll
+C:\Users\Temporary\OneDrive - Edge Hill University\Employability - CIS2162\KanbanConsoleApp\KanbanConsoleApp\obj\Debug\netcoreapp3.1\KanbanConsoleApp.pdb

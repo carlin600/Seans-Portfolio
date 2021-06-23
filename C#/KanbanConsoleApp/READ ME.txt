@@ -1,0 +1,22 @@
+--------========== KANBAN CONSOLE KATA
+
+1. Intro
+
+This project is a .NET Core console app for demonstrating basic programming techniques by building a Kanban board app.
+This project does not have any dependencies outside of the framework (System).
+
+This Kata has been tested on Windows 10 using Visual Studio 2019. We expect it will work on other OS platforms and technologies due to the portability of .NET Core.
+
+2. Instructions
+
+Your goal is to make the 7 tests pass without modifying the tests unless the test instructs you to do so. They are located in the "Tests" folder and are prefixed with an underscore.
+
+All tests are ran in order (see Program.cs).
+
+You should be able to use debugging techniques to identify required code changes to make the tests pass. This may include adding missing features or fixing bugs in existing code.
+
+We'd estimate the task will take around an hour and a half to complete, try your best and don't worry if you're unable to complete it within this time, let us know how you get on.
+
+The tests do get more complicated as you proceed through them.
+
+Best of luck!
