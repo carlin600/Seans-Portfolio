@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Temporary\\OneDrive - Edge Hill University\\Employability - CIS2162\\KanbanConsoleApp\\KanbanConsoleApp\\KanbanConsoleApp.csproj",
+      "projectUniqueName": "D:\\Documents\\Seans-Portfolio\\C#\\KanbanConsoleApp\\KanbanConsoleApp\\KanbanConsoleApp.csproj",
       "projectName": "KanbanConsoleApp",
-      "projectPath": "C:\\Users\\Temporary\\OneDrive - Edge Hill University\\Employability - CIS2162\\KanbanConsoleApp\\KanbanConsoleApp\\KanbanConsoleApp.csproj",
+      "projectPath": "D:\\Documents\\Seans-Portfolio\\C#\\KanbanConsoleApp\\KanbanConsoleApp\\KanbanConsoleApp.csproj",
       "packagesPath": "C:\\Users\\Temporary\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Temporary\\OneDrive - Edge Hill University\\Employability - CIS2162\\KanbanConsoleApp\\KanbanConsoleApp\\obj\\",
+      "outputPath": "D:\\Documents\\Seans-Portfolio\\C#\\KanbanConsoleApp\\KanbanConsoleApp\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
