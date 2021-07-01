@@ -1,5 +1,7 @@
---CREATE DATABASE InTheDogHouse    
+CREATE DATABASE InTheDogHouse    
 --GO
+DROP DATABASE InTheDogHouse
+
 
 
 use InTheDogHouse

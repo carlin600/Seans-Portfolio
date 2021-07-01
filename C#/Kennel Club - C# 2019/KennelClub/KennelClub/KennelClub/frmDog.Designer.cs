@@ -88,6 +88,17 @@
             this.btneditCancel = new System.Windows.Forms.Button();
             this.lbleditedit = new System.Windows.Forms.Label();
             this.errP = new System.Windows.Forms.ErrorProvider(this.components);
+            this.inTheDogHouseDataSet = new KennelClub.InTheDogHouseDataSet();
+            this.inTheDogHouseDataSetBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.dogBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.dogTableAdapter = new KennelClub.InTheDogHouseDataSetTableAdapters.DogTableAdapter();
+            this.dogNoDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.nameDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.breedNoDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dOBDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.genderDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.colourDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.customerNoDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             this.tabDog.SuspendLayout();
             this.tabdisplay.SuspendLayout();
@@ -98,6 +109,9 @@
             this.tabedit.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.errP)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.inTheDogHouseDataSet)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.inTheDogHouseDataSetBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dogBindingSource)).BeginInit();
             this.SuspendLayout();
             // 
             // pictureBox4
@@ -282,9 +296,19 @@
             // 
             this.dgvDog.AllowUserToAddRows = false;
             this.dgvDog.AllowUserToDeleteRows = false;
+            this.dgvDog.AutoGenerateColumns = false;
             this.dgvDog.BackgroundColor = System.Drawing.Color.Green;
             this.dgvDog.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.dgvDog.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvDog.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.dogNoDataGridViewTextBoxColumn,
+            this.nameDataGridViewTextBoxColumn,
+            this.breedNoDataGridViewTextBoxColumn,
+            this.dOBDataGridViewTextBoxColumn,
+            this.genderDataGridViewTextBoxColumn,
+            this.colourDataGridViewTextBoxColumn,
+            this.customerNoDataGridViewTextBoxColumn});
+            this.dgvDog.DataSource = this.dogBindingSource;
             this.dgvDog.Location = new System.Drawing.Point(15, 28);
             this.dgvDog.Name = "dgvDog";
             this.dgvDog.ReadOnly = true;
@@ -461,8 +485,9 @@
             this.lbladdDNo.AutoSize = true;
             this.lbladdDNo.Location = new System.Drawing.Point(132, 55);
             this.lbladdDNo.Name = "lbladdDNo";
-            this.lbladdDNo.Size = new System.Drawing.Size(0, 19);
+            this.lbladdDNo.Size = new System.Drawing.Size(41, 19);
             this.lbladdDNo.TabIndex = 11;
+            this.lbladdDNo.Text = "0000";
             // 
             // lbladdcancel
             // 
@@ -704,6 +729,74 @@
             // 
             this.errP.ContainerControl = this;
             // 
+            // inTheDogHouseDataSet
+            // 
+            this.inTheDogHouseDataSet.DataSetName = "InTheDogHouseDataSet";
+            this.inTheDogHouseDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            // 
+            // inTheDogHouseDataSetBindingSource
+            // 
+            this.inTheDogHouseDataSetBindingSource.DataSource = this.inTheDogHouseDataSet;
+            this.inTheDogHouseDataSetBindingSource.Position = 0;
+            // 
+            // dogBindingSource
+            // 
+            this.dogBindingSource.DataMember = "Dog";
+            this.dogBindingSource.DataSource = this.inTheDogHouseDataSet;
+            // 
+            // dogTableAdapter
+            // 
+            this.dogTableAdapter.ClearBeforeFill = true;
+            // 
+            // dogNoDataGridViewTextBoxColumn
+            // 
+            this.dogNoDataGridViewTextBoxColumn.DataPropertyName = "DogNo";
+            this.dogNoDataGridViewTextBoxColumn.HeaderText = "DogNo";
+            this.dogNoDataGridViewTextBoxColumn.Name = "dogNoDataGridViewTextBoxColumn";
+            this.dogNoDataGridViewTextBoxColumn.ReadOnly = true;
+            // 
+            // nameDataGridViewTextBoxColumn
+            // 
+            this.nameDataGridViewTextBoxColumn.DataPropertyName = "Name";
+            this.nameDataGridViewTextBoxColumn.HeaderText = "Name";
+            this.nameDataGridViewTextBoxColumn.Name = "nameDataGridViewTextBoxColumn";
+            this.nameDataGridViewTextBoxColumn.ReadOnly = true;
+            // 
+            // breedNoDataGridViewTextBoxColumn
+            // 
+            this.breedNoDataGridViewTextBoxColumn.DataPropertyName = "BreedNo";
+            this.breedNoDataGridViewTextBoxColumn.HeaderText = "BreedNo";
+            this.breedNoDataGridViewTextBoxColumn.Name = "breedNoDataGridViewTextBoxColumn";
+            this.breedNoDataGridViewTextBoxColumn.ReadOnly = true;
+            // 
+            // dOBDataGridViewTextBoxColumn
+            // 
+            this.dOBDataGridViewTextBoxColumn.DataPropertyName = "DOB";
+            this.dOBDataGridViewTextBoxColumn.HeaderText = "DOB";
+            this.dOBDataGridViewTextBoxColumn.Name = "dOBDataGridViewTextBoxColumn";
+            this.dOBDataGridViewTextBoxColumn.ReadOnly = true;
+            // 
+            // genderDataGridViewTextBoxColumn
+            // 
+            this.genderDataGridViewTextBoxColumn.DataPropertyName = "Gender";
+            this.genderDataGridViewTextBoxColumn.HeaderText = "Gender";
+            this.genderDataGridViewTextBoxColumn.Name = "genderDataGridViewTextBoxColumn";
+            this.genderDataGridViewTextBoxColumn.ReadOnly = true;
+            // 
+            // colourDataGridViewTextBoxColumn
+            // 
+            this.colourDataGridViewTextBoxColumn.DataPropertyName = "Colour";
+            this.colourDataGridViewTextBoxColumn.HeaderText = "Colour";
+            this.colourDataGridViewTextBoxColumn.Name = "colourDataGridViewTextBoxColumn";
+            this.colourDataGridViewTextBoxColumn.ReadOnly = true;
+            // 
+            // customerNoDataGridViewTextBoxColumn
+            // 
+            this.customerNoDataGridViewTextBoxColumn.DataPropertyName = "CustomerNo";
+            this.customerNoDataGridViewTextBoxColumn.HeaderText = "CustomerNo";
+            this.customerNoDataGridViewTextBoxColumn.Name = "customerNoDataGridViewTextBoxColumn";
+            this.customerNoDataGridViewTextBoxColumn.ReadOnly = true;
+            // 
             // frmDog
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -714,6 +807,7 @@
             this.Controls.Add(this.tabDog);
             this.Name = "frmDog";
             this.Text = "frmDog";
+            this.Load += new System.EventHandler(this.frmDog_Load_1);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             this.tabDog.ResumeLayout(false);
             this.tabdisplay.ResumeLayout(false);
@@ -727,6 +821,9 @@
             this.tabedit.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.errP)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.inTheDogHouseDataSet)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.inTheDogHouseDataSetBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dogBindingSource)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -793,5 +890,16 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.BindingSource inTheDogHouseDataSetBindingSource;
+        private InTheDogHouseDataSet inTheDogHouseDataSet;
+        private System.Windows.Forms.BindingSource dogBindingSource;
+        private InTheDogHouseDataSetTableAdapters.DogTableAdapter dogTableAdapter;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dogNoDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn nameDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn breedNoDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dOBDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn genderDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn colourDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn customerNoDataGridViewTextBoxColumn;
     }
 }

@@ -35,7 +35,8 @@ namespace KennelClub
         {
             //If youre having trouble connecting to the database, and you have made sure you're connected via server explorer,
             //Alter this connection string to the SQL Server name on your computer that has the SQL code executed.
-            connStr = @"Data source = .; Initial Catalog = InTheDogHouse; Integrated Security = true";
+            connStr = @"Data source = REDTOPS\SQLEXPRESS; Initial Catalog = InTheDogHouse; Integrated Security = true";
+
             //connStr = @"Data Source = (server name here); Initial Catalog = InTheDogHouse; Integrated Security = True";
 
 
@@ -51,7 +52,7 @@ namespace KennelClub
             daBreed.FillSchema(dsInTheDogHouse, SchemaType.Source, "Breed");
             daBreed.Fill(dsInTheDogHouse, "Breed");
 
-            connStr = @"Data source = .; Initial Catalog = InTheDogHouse; Integrated Security = true";
+           // connStr = @"Data source = .; Initial Catalog = InTheDogHouse; Integrated Security = true";
             sqlCustomer = @"select * from Customer";
             daCustomer = new SqlDataAdapter(sqlCustomer, connStr);
             cmdBCustomer = new SqlCommandBuilder(daCustomer);
@@ -120,7 +121,7 @@ namespace KennelClub
 
                 case 1: // add tab selected
                 {
-                   int noRows = dsInTheDogHouse.Tables["Dog"].Rows.Count;
+                        int noRows = dsInTheDogHouse.Tables["Dog"].Rows.Count;
 
                     if (noRows == 0)
                     {
@@ -336,6 +337,13 @@ namespace KennelClub
         private void tabCustAdd_Click(object sender, EventArgs e)
         {
             //how do i find this on the form?
+        }
+
+        private void frmDog_Load_1(object sender, EventArgs e)
+        {
+            // TODO: This line of code loads data into the 'inTheDogHouseDataSet.Dog' table. You can move, or remove it, as needed.
+            this.dogTableAdapter.Fill(this.inTheDogHouseDataSet.Dog);
+
         }
 
 
