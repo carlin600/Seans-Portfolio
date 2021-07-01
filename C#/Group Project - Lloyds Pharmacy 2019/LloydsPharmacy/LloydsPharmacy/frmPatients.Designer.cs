@@ -161,7 +161,7 @@
             this.tabPatients.Name = "tabPatients";
             this.tabPatients.Padding = new System.Drawing.Point(6, 5);
             this.tabPatients.SelectedIndex = 0;
-            this.tabPatients.Size = new System.Drawing.Size(1035, 588);
+            this.tabPatients.Size = new System.Drawing.Size(1202, 588);
             this.tabPatients.TabIndex = 58;
             this.tabPatients.SelectedIndexChanged += new System.EventHandler(this.tabPatients_SelectedIndexChanged);
             // 
@@ -177,7 +177,7 @@
             this.tabDisplay.Location = new System.Drawing.Point(54, 4);
             this.tabDisplay.Name = "tabDisplay";
             this.tabDisplay.Padding = new System.Windows.Forms.Padding(3);
-            this.tabDisplay.Size = new System.Drawing.Size(977, 580);
+            this.tabDisplay.Size = new System.Drawing.Size(1144, 580);
             this.tabDisplay.TabIndex = 0;
             // 
             // lblDisplayPatients
@@ -216,11 +216,11 @@
             // dgvPatients
             // 
             this.dgvPatients.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvPatients.Location = new System.Drawing.Point(23, 112);
+            this.dgvPatients.Location = new System.Drawing.Point(6, 112);
             this.dgvPatients.Name = "dgvPatients";
             this.dgvPatients.RowHeadersWidth = 51;
             this.dgvPatients.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dgvPatients.Size = new System.Drawing.Size(933, 453);
+            this.dgvPatients.Size = new System.Drawing.Size(1132, 453);
             this.dgvPatients.TabIndex = 3;
             // 
             // tabAdd

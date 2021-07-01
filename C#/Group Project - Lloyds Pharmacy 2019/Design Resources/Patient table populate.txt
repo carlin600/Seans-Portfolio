@@ -1,0 +1,103 @@
+PAT1000, Conor, McGrory, 01278564, cmcg@gmail.co.uk, Pennyburn, Derry, BT48 8WE
+PAT1001, Sean, Carlin, 63301956, sc@hotmail.co.uk, Abercorn Road, Derry, BT48 P2F
+PAT1002, Jack, O'Kane, 49104523, jok@gmail.com, Branch road, Derry, BT47 TF4
+PAT1003, Megan, Rose, 01278564, mr@hotmail.co.uk, Alexander Park, Armagh, BT48 J0S
+PAT1004, Sean, Robert, 28110459, srg@gmail.co.uk, Abbey Court, Belfast, BT47 UTL
+PAT1005, Kevin, Hugh, 16753098, kh@gmail.co.uk, Drumbeg Road, Lisburn, BT47 9OI
+PAT1006, Susan, Barney, 86753090, sb@hotmail.com, Birch Hill Road, Antrim, BT47 LQ3
+PAT1007, Homer, Simpson, 6082301, hs@gmail.co.uk, Dreg Crescent, Derry, BT48 K2Q
+PAT1008, Peter, Griffin, 41555071, pg@gmail.co.uk, Abercorn, Lisburn, BT47 UTL
+PAT1009, Dennis, Leery, 60982361, dl@gmail.co.uk, Foyle Street, Derry, BT48 02W
+PAT1010, Mary, Jane, 50167743, mj@hotmail.com, Fountain Street, Antrim, BT48 LQ3
+PAT1011, Steven, White, 91034421, sw@gmail.co.uk, Jura Street, Antrim, BT48 MD2
+PAT1012, Harry, Potter, 38466109, hp@hotmail.co.uk, Haywood Drive, Belfast, BT48 7PV
+PAT1013, James, Jones, 25912707, jj@gmail.co.uk, Dukes Road, Armagh, BT47 60D
+PAT1014, Eric, Cartman, 72099814, ec@gmail.com, Greenbank, Lisburn, BT48 FG8
+PAT1015, Lucy, Dale, 19964820, ld@hotmail.co.uk, Millhouse Drive, Antrim, BT48 TK3
+PAT1016, Wendy, Yards, 50166923, wy@gmail.co.uk, Garden City, Derry, BT48 B9W
+PAT1017, Kylie, Dane, 86401127, kd@gmail.com, Curzon Street, Belfast, BT48 VN6
+PAT1018, Steven, Tee, 95714501, st@gmail.com, Eden Road, Belfast, BT47 6SQ
+PAT1019, Giovanni, Smith, 53210988, gs@gmail.co.uk, Grove Terrace, Armagh, BT48 MD2
+PAT1020, Gary, Cant, 44910425, gc@hotmail.co.uk, Village Lane, Derry, BT47 HA1
+PAT1021, Mario, Mario, 13091985, mm@hotmail.co.uk, Hillside Court, Lisburn, BT48 MAR
+PAT1022, Ann, Lee, 30137458, al@hotmail.com, Westway, Derry, BT47 NM4
+PAT1023, Nemo, Paulie, 66156306, np@hotmail.co.uk, Belmont Road, Belfast, BT47 37K
+PAT1024, Barney, Gumble, 27013658, bg@gmail.com, Oakview, Armagh, BT47 K1V
+PAT1025, Timmy, Turner, 03758992, tt@hotmail.co.uk, Parklands, Antrim, BT48 04D
+PAT1026, Victoria, Secret, 73001542, vs@hotmail.co.uk, Violet Street, Derry, BT48 Z7S
+PAT1027, Amanda, Huggenkiss, 50447138, ah@hotmail.com, Low Road, Lisburn, BT48 LP2
+PAT1028, Sophie, Housten, 10558334, sh@gmail.com, Glendower Street, Belfast, BT47 93B
+PAT1029, Jesus, Chris, 87654321, jc@hotmail.co.uk, Sufflok Square, Antrim, BT48 1RT
+
+CREATE TABLE Patient
+(
+	PatientID		VARCHAR(8)		NOT NULL,
+	PatientForename		VARCHAR(15)		NOT NULL,
+	PatientSurname		VARCHAR(15)		NOT NULL,
+	PatientTelNo		VARCHAR(8)		NOT NULL,
+	PatientEmail		VARCHAR(23)		NOT NULL,
+	PatientStreet		VARCHAR(20)		NOT NULL,
+	PatientTown		VARCHAR(20)		NOT NULL,
+	PatientPostcode		VARCHAR(8)		NOT NULL
+	
+	CONSTRAINT pkPatientID PRIMARY KEY (PatientID)
+)
+
+CREATE TABLE Prescription
+(
+	PrescriptionID		VARCHAR(8)		NOT NULL,
+	PatientID		VARCHAR(8)		NOT NULL,
+	PrescriptionDate	SMALLDATETIME		NOT NULL
+	
+	CONSTRAINT pkPrescriptionID PRIMARY KEY (PrescriptionID),
+	CONSTRAINT fkPatientID FOREIGN KEY (PatientID) REFERENCES Patient(PatientID)
+)
+
+CREATE TABLE PrescriptionDetails
+(
+	PrescriptionID		VARCHAR(8)		NOT NULL,
+	StockTypeID		INT			NOT NULL,
+	Delivery		VARCHAR(10)		NOT NULL,
+	RecurringPrescription	VARCHAR(20)		NOT NULL
+	
+	CONSTRAINT fkPrescriptionID FOREIGN KEY (PrescriptionID) REFERENCES Prescription(PrescriptionID),
+	CONSTRAINT fkStockTypeID FOREIGN KEY (StockTypeID) REFERENCES StockType(StockTypeID)
+)
+
+CREATE TABLE CustMinorAilments
+(
+	MinorAilmentsID		VARCHAR(8)		NOT NULL,
+	PatientID		VARCHAR(8)		NOT NULL,
+	DateAdministrated	SMALLDATETIME		NOT NULL
+	
+	CONSTRAINT pkMinorAilmentID PRIMARY KEY (MinorAilmentsID),
+	CONSTRAINT fkPatientID FOREIGN KEY (PatientID) REFERENCES Patient(PatientID)
+)
+
+CREATE TABLE MinorAilments
+(
+	MinorAilmentsID		VARCHAR(8)		NOT NULL,
+	MinorAilmentsTypeID	VARCHAR(8)		NOT NULL,
+	MinorAilmentsDesc	VARCHAR(10)		NOT NULL
+	
+	CONSTRAINT fkMinorAilmentID FOREIGN KEY (MinorAilmentsID) REFERENCES CustMinorAilments(MinorAilmentsID),
+	CONSTRAINT fkMinorAilmentTypeID FOREIGN KEY (MinorAilmentsTypeID) REFERENCES MinorAilmentType(MinorAilmentsTypeID)
+)
+
+CREATE TABLE MinorAilmentType
+(
+	MinorAilmentsTypeID	VARCHAR(8)		NOT NULL,
+	MinorAilmentsTypeDesc	VARCHAR(20)		NOT NULL
+	
+	CONSTRAINT pkMinorAilmentID PRIMARY KEY (MinorAilmentsTypeID)
+)
+
+CREATE TABLE CustMinorAilmentDetails
+(
+	MinorAilmentsID		VARCHAR(8)		NOT NULL,
+	StockTypeID		INT			NOT NULL,
+	Qty			INT			NOT NULL
+	
+	CONSTRAINT fkMinorAilmentID FOREIGN KEY (MinorAilmentsID) REFERENCES CustMinorAilments(MinorAilmentsID),
+	CONSTRAINT fkStockTypeID FOREIGN KEY (StockTypeID) REFERENCES StockType(StockTypeID)
+)
