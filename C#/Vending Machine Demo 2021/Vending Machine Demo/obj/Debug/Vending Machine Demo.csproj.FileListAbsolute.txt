@@ -1,0 +1,19 @@
+C:\Users\bliss\source\repos\Vending Machine Demo\Vending Machine Demo\bin\Debug\Vending Machine Demo.exe.config
+C:\Users\bliss\source\repos\Vending Machine Demo\Vending Machine Demo\bin\Debug\Vending Machine Demo.exe
+C:\Users\bliss\source\repos\Vending Machine Demo\Vending Machine Demo\bin\Debug\Vending Machine Demo.pdb
+C:\Users\bliss\source\repos\Vending Machine Demo\Vending Machine Demo\obj\Debug\Vending Machine Demo.csprojAssemblyReference.cache
+C:\Users\bliss\source\repos\Vending Machine Demo\Vending Machine Demo\obj\Debug\Vending_Machine_Demo.Form1.resources
+C:\Users\bliss\source\repos\Vending Machine Demo\Vending Machine Demo\obj\Debug\Vending_Machine_Demo.Properties.Resources.resources
+C:\Users\bliss\source\repos\Vending Machine Demo\Vending Machine Demo\obj\Debug\Vending Machine Demo.csproj.GenerateResource.cache
+C:\Users\bliss\source\repos\Vending Machine Demo\Vending Machine Demo\obj\Debug\Vending Machine Demo.csproj.CoreCompileInputs.cache
+C:\Users\bliss\source\repos\Vending Machine Demo\Vending Machine Demo\obj\Debug\Vending Machine Demo.exe
+C:\Users\bliss\source\repos\Vending Machine Demo\Vending Machine Demo\obj\Debug\Vending Machine Demo.pdb
+C:\Users\Temporary\OneDrive - Edge Hill University\Software Engineering - CIS2158\SWE-Group\Resources\Vending_Machine_Demo\Vending Machine Demo\Vending Machine Demo\bin\Debug\Vending Machine Demo.exe.config
+C:\Users\Temporary\OneDrive - Edge Hill University\Software Engineering - CIS2158\SWE-Group\Resources\Vending_Machine_Demo\Vending Machine Demo\Vending Machine Demo\bin\Debug\Vending Machine Demo.exe
+C:\Users\Temporary\OneDrive - Edge Hill University\Software Engineering - CIS2158\SWE-Group\Resources\Vending_Machine_Demo\Vending Machine Demo\Vending Machine Demo\bin\Debug\Vending Machine Demo.pdb
+C:\Users\Temporary\OneDrive - Edge Hill University\Software Engineering - CIS2158\SWE-Group\Resources\Vending_Machine_Demo\Vending Machine Demo\Vending Machine Demo\obj\Debug\Vending Machine Demo.csprojAssemblyReference.cache
+C:\Users\Temporary\OneDrive - Edge Hill University\Software Engineering - CIS2158\SWE-Group\Resources\Vending_Machine_Demo\Vending Machine Demo\Vending Machine Demo\obj\Debug\Vending_Machine_Demo.Properties.Resources.resources
+C:\Users\Temporary\OneDrive - Edge Hill University\Software Engineering - CIS2158\SWE-Group\Resources\Vending_Machine_Demo\Vending Machine Demo\Vending Machine Demo\obj\Debug\Vending Machine Demo.csproj.GenerateResource.cache
+C:\Users\Temporary\OneDrive - Edge Hill University\Software Engineering - CIS2158\SWE-Group\Resources\Vending_Machine_Demo\Vending Machine Demo\Vending Machine Demo\obj\Debug\Vending Machine Demo.exe
+C:\Users\Temporary\OneDrive - Edge Hill University\Software Engineering - CIS2158\SWE-Group\Resources\Vending_Machine_Demo\Vending Machine Demo\Vending Machine Demo\obj\Debug\Vending Machine Demo.pdb
+C:\Users\Temporary\OneDrive - Edge Hill University\Software Engineering - CIS2158\SWE-Group\Resources\Vending_Machine_Demo\Vending Machine Demo\Vending Machine Demo\obj\Debug\Vending_Machine_Demo.RootsKitchen.resources

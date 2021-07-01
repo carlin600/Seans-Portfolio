@@ -1,0 +1,208 @@
+D:\Desktop\BAD-Project\LloydsPharmacy\LloydsPharmacy\bin\Debug\LloydsPharmacy.exe.config
+D:\Desktop\BAD-Project\LloydsPharmacy\LloydsPharmacy\bin\Debug\LloydsPharmacy.exe
+D:\Desktop\BAD-Project\LloydsPharmacy\LloydsPharmacy\bin\Debug\LloydsPharmacy.pdb
+D:\Desktop\BAD-Project\LloydsPharmacy\LloydsPharmacy\obj\Debug\LloydsPharmacy.frmCourses.resources
+D:\Desktop\BAD-Project\LloydsPharmacy\LloydsPharmacy\obj\Debug\LloydsPharmacy.frmMenu.resources
+D:\Desktop\BAD-Project\LloydsPharmacy\LloydsPharmacy\obj\Debug\LloydsPharmacy.frmMinorAilments.resources
+D:\Desktop\BAD-Project\LloydsPharmacy\LloydsPharmacy\obj\Debug\LloydsPharmacy.frmPatients.resources
+D:\Desktop\BAD-Project\LloydsPharmacy\LloydsPharmacy\obj\Debug\LloydsPharmacy.frmPrescriptions.resources
+D:\Desktop\BAD-Project\LloydsPharmacy\LloydsPharmacy\obj\Debug\LloydsPharmacy.frmSales.resources
+D:\Desktop\BAD-Project\LloydsPharmacy\LloydsPharmacy\obj\Debug\LloydsPharmacy.frmStaff.resources
+D:\Desktop\BAD-Project\LloydsPharmacy\LloydsPharmacy\obj\Debug\LloydsPharmacy.Properties.Resources.resources
+D:\Desktop\BAD-Project\LloydsPharmacy\LloydsPharmacy\obj\Debug\LloydsPharmacy.frmStock.resources
+D:\Desktop\BAD-Project\LloydsPharmacy\LloydsPharmacy\obj\Debug\LloydsPharmacy.frmSuppliers.resources
+D:\Desktop\BAD-Project\LloydsPharmacy\LloydsPharmacy\obj\Debug\LloydsPharmacy.csproj.GenerateResource.cache
+D:\Desktop\BAD-Project\LloydsPharmacy\LloydsPharmacy\obj\Debug\LloydsPharmacy.exe
+D:\Desktop\BAD-Project\LloydsPharmacy\LloydsPharmacy\obj\Debug\LloydsPharmacy.pdb
+D:\Desktop\BAD-Project\LloydsPharmacy\LloydsPharmacy\obj\Debug\LloydsPharmacy.csprojAssemblyReference.cache
+C:\Users\car18110827\Desktop\BAD-Project\LloydsPharmacy\LloydsPharmacy\bin\Debug\LloydsPharmacy.exe.config
+C:\Users\car18110827\Desktop\BAD-Project\LloydsPharmacy\LloydsPharmacy\bin\Debug\LloydsPharmacy.exe
+C:\Users\car18110827\Desktop\BAD-Project\LloydsPharmacy\LloydsPharmacy\bin\Debug\LloydsPharmacy.pdb
+C:\Users\car18110827\Desktop\BAD-Project\LloydsPharmacy\LloydsPharmacy\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+C:\Users\car18110827\Desktop\BAD-Project\LloydsPharmacy\LloydsPharmacy\bin\Debug\CrystalDecisions.ReportSource.dll
+C:\Users\car18110827\Desktop\BAD-Project\LloydsPharmacy\LloydsPharmacy\bin\Debug\CrystalDecisions.Shared.dll
+C:\Users\car18110827\Desktop\BAD-Project\LloydsPharmacy\LloydsPharmacy\bin\Debug\CrystalDecisions.Windows.Forms.dll
+C:\Users\car18110827\Desktop\BAD-Project\LloydsPharmacy\LloydsPharmacy\bin\Debug\FlashControlV71.dll
+C:\Users\car18110827\Desktop\BAD-Project\LloydsPharmacy\LloydsPharmacy\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+C:\Users\car18110827\Desktop\BAD-Project\LloydsPharmacy\LloydsPharmacy\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+C:\Users\car18110827\Desktop\BAD-Project\LloydsPharmacy\LloydsPharmacy\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+C:\Users\car18110827\Desktop\BAD-Project\LloydsPharmacy\LloydsPharmacy\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+C:\Users\car18110827\Desktop\BAD-Project\LloydsPharmacy\LloydsPharmacy\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+C:\Users\car18110827\Desktop\BAD-Project\LloydsPharmacy\LloydsPharmacy\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+C:\Users\car18110827\Desktop\BAD-Project\LloydsPharmacy\LloydsPharmacy\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+C:\Users\car18110827\Desktop\BAD-Project\LloydsPharmacy\LloydsPharmacy\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+C:\Users\car18110827\Desktop\BAD-Project\LloydsPharmacy\LloydsPharmacy\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+C:\Users\car18110827\Desktop\BAD-Project\LloydsPharmacy\LloydsPharmacy\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+C:\Users\car18110827\Desktop\BAD-Project\LloydsPharmacy\LloydsPharmacy\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+C:\Users\car18110827\Desktop\BAD-Project\LloydsPharmacy\LloydsPharmacy\bin\Debug\ShockwaveFlashObjects.dll
+C:\Users\car18110827\Desktop\BAD-Project\LloydsPharmacy\LloydsPharmacy\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+C:\Users\car18110827\Desktop\BAD-Project\LloydsPharmacy\LloydsPharmacy\bin\Debug\stdole.dll
+C:\Users\car18110827\Desktop\BAD-Project\LloydsPharmacy\LloydsPharmacy\obj\Debug\LloydsPharmacy.frmCourses.resources
+C:\Users\car18110827\Desktop\BAD-Project\LloydsPharmacy\LloydsPharmacy\obj\Debug\LloydsPharmacy.frmMenu.resources
+C:\Users\car18110827\Desktop\BAD-Project\LloydsPharmacy\LloydsPharmacy\obj\Debug\LloydsPharmacy.frmMinorAilments.resources
+C:\Users\car18110827\Desktop\BAD-Project\LloydsPharmacy\LloydsPharmacy\obj\Debug\LloydsPharmacy.frmPatients.resources
+C:\Users\car18110827\Desktop\BAD-Project\LloydsPharmacy\LloydsPharmacy\obj\Debug\LloydsPharmacy.frmPrescriptions.resources
+C:\Users\car18110827\Desktop\BAD-Project\LloydsPharmacy\LloydsPharmacy\obj\Debug\LloydsPharmacy.frmSales.resources
+C:\Users\car18110827\Desktop\BAD-Project\LloydsPharmacy\LloydsPharmacy\obj\Debug\LloydsPharmacy.frmStaff.resources
+C:\Users\car18110827\Desktop\BAD-Project\LloydsPharmacy\LloydsPharmacy\obj\Debug\LloydsPharmacy.Properties.Resources.resources
+C:\Users\car18110827\Desktop\BAD-Project\LloydsPharmacy\LloydsPharmacy\obj\Debug\LloydsPharmacy.frmStock.resources
+C:\Users\car18110827\Desktop\BAD-Project\LloydsPharmacy\LloydsPharmacy\obj\Debug\LloydsPharmacy.frmSuppliers.resources
+C:\Users\car18110827\Desktop\BAD-Project\LloydsPharmacy\LloydsPharmacy\obj\Debug\LloydsPharmacy.csproj.GenerateResource.cache
+C:\Users\car18110827\Desktop\BAD-Project\LloydsPharmacy\LloydsPharmacy\obj\Debug\LloydsPharmacy.csproj.CoreCompileInputs.cache
+C:\Users\car18110827\Desktop\BAD-Project\LloydsPharmacy\LloydsPharmacy\obj\Debug\LloydsPharmacy.csproj.CopyComplete
+C:\Users\car18110827\Desktop\BAD-Project\LloydsPharmacy\LloydsPharmacy\obj\Debug\LloydsPharmacy.exe
+C:\Users\car18110827\Desktop\BAD-Project\LloydsPharmacy\LloydsPharmacy\obj\Debug\LloydsPharmacy.pdb
+D:\Desktop\BAD-Project\LloydsPharmacy\LloydsPharmacy\obj\Debug\LloydsPharmacy.csproj.CopyComplete
+C:\Users\car18110827\Desktop\BAD-Project\LloydsPharmacy\LloydsPharmacy\obj\Debug\LloydsPharmacy.frmStaffCourse.resources
+C:\Users\car18110827\Desktop\BAD-Project\LloydsPharmacy\LloydsPharmacy\obj\Debug\LloydsPharmacy.frmOrderAilments.resources
+D:\Desktop\BAD-Project\LloydsPharmacy\LloydsPharmacy\obj\Debug\LloydsPharmacy.frmOrderAilments.resources
+D:\Desktop\BAD-Project\LloydsPharmacy\LloydsPharmacy\obj\Debug\LloydsPharmacy.frmStaffCourse.resources
+C:\Users\jacko\Documents\GitHub\BAD-Project\LloydsPharmacy\LloydsPharmacy\bin\Debug\LloydsPharmacy.exe.config
+C:\Users\jacko\Documents\GitHub\BAD-Project\LloydsPharmacy\LloydsPharmacy\bin\Debug\LloydsPharmacy.exe
+C:\Users\jacko\Documents\GitHub\BAD-Project\LloydsPharmacy\LloydsPharmacy\bin\Debug\LloydsPharmacy.pdb
+C:\Users\jacko\Documents\GitHub\BAD-Project\LloydsPharmacy\LloydsPharmacy\obj\Debug\LloydsPharmacy.csprojAssemblyReference.cache
+C:\Users\jacko\Documents\GitHub\BAD-Project\LloydsPharmacy\LloydsPharmacy\obj\Debug\LloydsPharmacy.frmCourses.resources
+C:\Users\jacko\Documents\GitHub\BAD-Project\LloydsPharmacy\LloydsPharmacy\obj\Debug\LloydsPharmacy.frmMenu.resources
+C:\Users\jacko\Documents\GitHub\BAD-Project\LloydsPharmacy\LloydsPharmacy\obj\Debug\LloydsPharmacy.frmMinorAilments.resources
+C:\Users\jacko\Documents\GitHub\BAD-Project\LloydsPharmacy\LloydsPharmacy\obj\Debug\LloydsPharmacy.frmOrderAilments.resources
+C:\Users\jacko\Documents\GitHub\BAD-Project\LloydsPharmacy\LloydsPharmacy\obj\Debug\LloydsPharmacy.frmPatients.resources
+C:\Users\jacko\Documents\GitHub\BAD-Project\LloydsPharmacy\LloydsPharmacy\obj\Debug\LloydsPharmacy.frmPrescriptions.resources
+C:\Users\jacko\Documents\GitHub\BAD-Project\LloydsPharmacy\LloydsPharmacy\obj\Debug\LloydsPharmacy.frmSales.resources
+C:\Users\jacko\Documents\GitHub\BAD-Project\LloydsPharmacy\LloydsPharmacy\obj\Debug\LloydsPharmacy.frmStaff.resources
+C:\Users\jacko\Documents\GitHub\BAD-Project\LloydsPharmacy\LloydsPharmacy\obj\Debug\LloydsPharmacy.frmStaffCourse.resources
+C:\Users\jacko\Documents\GitHub\BAD-Project\LloydsPharmacy\LloydsPharmacy\obj\Debug\LloydsPharmacy.Properties.Resources.resources
+C:\Users\jacko\Documents\GitHub\BAD-Project\LloydsPharmacy\LloydsPharmacy\obj\Debug\LloydsPharmacy.frmStock.resources
+C:\Users\jacko\Documents\GitHub\BAD-Project\LloydsPharmacy\LloydsPharmacy\obj\Debug\LloydsPharmacy.frmSuppliers.resources
+C:\Users\jacko\Documents\GitHub\BAD-Project\LloydsPharmacy\LloydsPharmacy\obj\Debug\LloydsPharmacy.csproj.GenerateResource.cache
+C:\Users\jacko\Documents\GitHub\BAD-Project\LloydsPharmacy\LloydsPharmacy\obj\Debug\LloydsPharmacy.csproj.CopyComplete
+C:\Users\jacko\Documents\GitHub\BAD-Project\LloydsPharmacy\LloydsPharmacy\obj\Debug\LloydsPharmacy.exe
+C:\Users\jacko\Documents\GitHub\BAD-Project\LloydsPharmacy\LloydsPharmacy\obj\Debug\LloydsPharmacy.pdb
+C:\Users\OKA18107571\Desktop\BAD PROJECT\BAD-Project\LloydsPharmacy\LloydsPharmacy\bin\Debug\LloydsPharmacy.exe.config
+C:\Users\OKA18107571\Desktop\BAD PROJECT\BAD-Project\LloydsPharmacy\LloydsPharmacy\bin\Debug\LloydsPharmacy.exe
+C:\Users\OKA18107571\Desktop\BAD PROJECT\BAD-Project\LloydsPharmacy\LloydsPharmacy\bin\Debug\LloydsPharmacy.pdb
+C:\Users\OKA18107571\Desktop\BAD PROJECT\BAD-Project\LloydsPharmacy\LloydsPharmacy\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+C:\Users\OKA18107571\Desktop\BAD PROJECT\BAD-Project\LloydsPharmacy\LloydsPharmacy\bin\Debug\CrystalDecisions.ReportSource.dll
+C:\Users\OKA18107571\Desktop\BAD PROJECT\BAD-Project\LloydsPharmacy\LloydsPharmacy\bin\Debug\CrystalDecisions.Shared.dll
+C:\Users\OKA18107571\Desktop\BAD PROJECT\BAD-Project\LloydsPharmacy\LloydsPharmacy\bin\Debug\CrystalDecisions.Windows.Forms.dll
+C:\Users\OKA18107571\Desktop\BAD PROJECT\BAD-Project\LloydsPharmacy\LloydsPharmacy\bin\Debug\FlashControlV71.dll
+C:\Users\OKA18107571\Desktop\BAD PROJECT\BAD-Project\LloydsPharmacy\LloydsPharmacy\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+C:\Users\OKA18107571\Desktop\BAD PROJECT\BAD-Project\LloydsPharmacy\LloydsPharmacy\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+C:\Users\OKA18107571\Desktop\BAD PROJECT\BAD-Project\LloydsPharmacy\LloydsPharmacy\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+C:\Users\OKA18107571\Desktop\BAD PROJECT\BAD-Project\LloydsPharmacy\LloydsPharmacy\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+C:\Users\OKA18107571\Desktop\BAD PROJECT\BAD-Project\LloydsPharmacy\LloydsPharmacy\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+C:\Users\OKA18107571\Desktop\BAD PROJECT\BAD-Project\LloydsPharmacy\LloydsPharmacy\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+C:\Users\OKA18107571\Desktop\BAD PROJECT\BAD-Project\LloydsPharmacy\LloydsPharmacy\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+C:\Users\OKA18107571\Desktop\BAD PROJECT\BAD-Project\LloydsPharmacy\LloydsPharmacy\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+C:\Users\OKA18107571\Desktop\BAD PROJECT\BAD-Project\LloydsPharmacy\LloydsPharmacy\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+C:\Users\OKA18107571\Desktop\BAD PROJECT\BAD-Project\LloydsPharmacy\LloydsPharmacy\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+C:\Users\OKA18107571\Desktop\BAD PROJECT\BAD-Project\LloydsPharmacy\LloydsPharmacy\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+C:\Users\OKA18107571\Desktop\BAD PROJECT\BAD-Project\LloydsPharmacy\LloydsPharmacy\bin\Debug\ShockwaveFlashObjects.dll
+C:\Users\OKA18107571\Desktop\BAD PROJECT\BAD-Project\LloydsPharmacy\LloydsPharmacy\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+C:\Users\OKA18107571\Desktop\BAD PROJECT\BAD-Project\LloydsPharmacy\LloydsPharmacy\bin\Debug\stdole.dll
+C:\Users\OKA18107571\Desktop\BAD PROJECT\BAD-Project\LloydsPharmacy\LloydsPharmacy\obj\Debug\LloydsPharmacy.csprojAssemblyReference.cache
+C:\Users\OKA18107571\Desktop\BAD PROJECT\BAD-Project\LloydsPharmacy\LloydsPharmacy\obj\Debug\LloydsPharmacy.frmCourses.resources
+C:\Users\OKA18107571\Desktop\BAD PROJECT\BAD-Project\LloydsPharmacy\LloydsPharmacy\obj\Debug\LloydsPharmacy.frmMenu.resources
+C:\Users\OKA18107571\Desktop\BAD PROJECT\BAD-Project\LloydsPharmacy\LloydsPharmacy\obj\Debug\LloydsPharmacy.frmMinorAilments.resources
+C:\Users\OKA18107571\Desktop\BAD PROJECT\BAD-Project\LloydsPharmacy\LloydsPharmacy\obj\Debug\LloydsPharmacy.frmOrderAilments.resources
+C:\Users\OKA18107571\Desktop\BAD PROJECT\BAD-Project\LloydsPharmacy\LloydsPharmacy\obj\Debug\LloydsPharmacy.frmPatients.resources
+C:\Users\OKA18107571\Desktop\BAD PROJECT\BAD-Project\LloydsPharmacy\LloydsPharmacy\obj\Debug\LloydsPharmacy.frmPrescriptions.resources
+C:\Users\OKA18107571\Desktop\BAD PROJECT\BAD-Project\LloydsPharmacy\LloydsPharmacy\obj\Debug\LloydsPharmacy.frmSales.resources
+C:\Users\OKA18107571\Desktop\BAD PROJECT\BAD-Project\LloydsPharmacy\LloydsPharmacy\obj\Debug\LloydsPharmacy.frmStaff.resources
+C:\Users\OKA18107571\Desktop\BAD PROJECT\BAD-Project\LloydsPharmacy\LloydsPharmacy\obj\Debug\LloydsPharmacy.frmStaffCourse.resources
+C:\Users\OKA18107571\Desktop\BAD PROJECT\BAD-Project\LloydsPharmacy\LloydsPharmacy\obj\Debug\LloydsPharmacy.Properties.Resources.resources
+C:\Users\OKA18107571\Desktop\BAD PROJECT\BAD-Project\LloydsPharmacy\LloydsPharmacy\obj\Debug\LloydsPharmacy.frmStock.resources
+C:\Users\OKA18107571\Desktop\BAD PROJECT\BAD-Project\LloydsPharmacy\LloydsPharmacy\obj\Debug\LloydsPharmacy.frmSuppliers.resources
+C:\Users\OKA18107571\Desktop\BAD PROJECT\BAD-Project\LloydsPharmacy\LloydsPharmacy\obj\Debug\LloydsPharmacy.csproj.GenerateResource.cache
+C:\Users\OKA18107571\Desktop\BAD PROJECT\BAD-Project\LloydsPharmacy\LloydsPharmacy\obj\Debug\LloydsPharmacy.csproj.CoreCompileInputs.cache
+C:\Users\OKA18107571\Desktop\BAD PROJECT\BAD-Project\LloydsPharmacy\LloydsPharmacy\obj\Debug\LloydsPharmacy.csproj.CopyComplete
+C:\Users\OKA18107571\Desktop\BAD PROJECT\BAD-Project\LloydsPharmacy\LloydsPharmacy\obj\Debug\LloydsPharmacy.exe
+C:\Users\OKA18107571\Desktop\BAD PROJECT\BAD-Project\LloydsPharmacy\LloydsPharmacy\obj\Debug\LloydsPharmacy.pdb
+C:\Users\car18110827\Desktop\BAD-Project\LloydsPharmacy\LloydsPharmacy\obj\Debug\LloydsPharmacy.csprojAssemblyReference.cache
+C:\Users\car18110827\Documents\GitHub\BAD-Project\LloydsPharmacy\LloydsPharmacy\bin\Debug\LloydsPharmacy.exe.config
+C:\Users\car18110827\Documents\GitHub\BAD-Project\LloydsPharmacy\LloydsPharmacy\bin\Debug\LloydsPharmacy.exe
+C:\Users\car18110827\Documents\GitHub\BAD-Project\LloydsPharmacy\LloydsPharmacy\bin\Debug\LloydsPharmacy.pdb
+C:\Users\car18110827\Documents\GitHub\BAD-Project\LloydsPharmacy\LloydsPharmacy\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+C:\Users\car18110827\Documents\GitHub\BAD-Project\LloydsPharmacy\LloydsPharmacy\bin\Debug\CrystalDecisions.ReportSource.dll
+C:\Users\car18110827\Documents\GitHub\BAD-Project\LloydsPharmacy\LloydsPharmacy\bin\Debug\CrystalDecisions.Shared.dll
+C:\Users\car18110827\Documents\GitHub\BAD-Project\LloydsPharmacy\LloydsPharmacy\bin\Debug\CrystalDecisions.Windows.Forms.dll
+C:\Users\car18110827\Documents\GitHub\BAD-Project\LloydsPharmacy\LloydsPharmacy\bin\Debug\FlashControlV71.dll
+C:\Users\car18110827\Documents\GitHub\BAD-Project\LloydsPharmacy\LloydsPharmacy\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+C:\Users\car18110827\Documents\GitHub\BAD-Project\LloydsPharmacy\LloydsPharmacy\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+C:\Users\car18110827\Documents\GitHub\BAD-Project\LloydsPharmacy\LloydsPharmacy\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+C:\Users\car18110827\Documents\GitHub\BAD-Project\LloydsPharmacy\LloydsPharmacy\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+C:\Users\car18110827\Documents\GitHub\BAD-Project\LloydsPharmacy\LloydsPharmacy\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+C:\Users\car18110827\Documents\GitHub\BAD-Project\LloydsPharmacy\LloydsPharmacy\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+C:\Users\car18110827\Documents\GitHub\BAD-Project\LloydsPharmacy\LloydsPharmacy\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+C:\Users\car18110827\Documents\GitHub\BAD-Project\LloydsPharmacy\LloydsPharmacy\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+C:\Users\car18110827\Documents\GitHub\BAD-Project\LloydsPharmacy\LloydsPharmacy\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+C:\Users\car18110827\Documents\GitHub\BAD-Project\LloydsPharmacy\LloydsPharmacy\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+C:\Users\car18110827\Documents\GitHub\BAD-Project\LloydsPharmacy\LloydsPharmacy\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+C:\Users\car18110827\Documents\GitHub\BAD-Project\LloydsPharmacy\LloydsPharmacy\bin\Debug\ShockwaveFlashObjects.dll
+C:\Users\car18110827\Documents\GitHub\BAD-Project\LloydsPharmacy\LloydsPharmacy\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+C:\Users\car18110827\Documents\GitHub\BAD-Project\LloydsPharmacy\LloydsPharmacy\bin\Debug\stdole.dll
+C:\Users\car18110827\Documents\GitHub\BAD-Project\LloydsPharmacy\LloydsPharmacy\obj\Debug\LloydsPharmacy.csprojAssemblyReference.cache
+C:\Users\car18110827\Documents\GitHub\BAD-Project\LloydsPharmacy\LloydsPharmacy\obj\Debug\LloydsPharmacy.frmCourses.resources
+C:\Users\car18110827\Documents\GitHub\BAD-Project\LloydsPharmacy\LloydsPharmacy\obj\Debug\LloydsPharmacy.frmMenu.resources
+C:\Users\car18110827\Documents\GitHub\BAD-Project\LloydsPharmacy\LloydsPharmacy\obj\Debug\LloydsPharmacy.frmMinorAilments.resources
+C:\Users\car18110827\Documents\GitHub\BAD-Project\LloydsPharmacy\LloydsPharmacy\obj\Debug\LloydsPharmacy.frmOrderAilments.resources
+C:\Users\car18110827\Documents\GitHub\BAD-Project\LloydsPharmacy\LloydsPharmacy\obj\Debug\LloydsPharmacy.frmPatients.resources
+C:\Users\car18110827\Documents\GitHub\BAD-Project\LloydsPharmacy\LloydsPharmacy\obj\Debug\LloydsPharmacy.frmPrescriptions.resources
+C:\Users\car18110827\Documents\GitHub\BAD-Project\LloydsPharmacy\LloydsPharmacy\obj\Debug\LloydsPharmacy.frmSales.resources
+C:\Users\car18110827\Documents\GitHub\BAD-Project\LloydsPharmacy\LloydsPharmacy\obj\Debug\LloydsPharmacy.frmStaff.resources
+C:\Users\car18110827\Documents\GitHub\BAD-Project\LloydsPharmacy\LloydsPharmacy\obj\Debug\LloydsPharmacy.frmStaffCourse.resources
+C:\Users\car18110827\Documents\GitHub\BAD-Project\LloydsPharmacy\LloydsPharmacy\obj\Debug\LloydsPharmacy.Properties.Resources.resources
+C:\Users\car18110827\Documents\GitHub\BAD-Project\LloydsPharmacy\LloydsPharmacy\obj\Debug\LloydsPharmacy.frmStock.resources
+C:\Users\car18110827\Documents\GitHub\BAD-Project\LloydsPharmacy\LloydsPharmacy\obj\Debug\LloydsPharmacy.frmSuppliers.resources
+C:\Users\car18110827\Documents\GitHub\BAD-Project\LloydsPharmacy\LloydsPharmacy\obj\Debug\LloydsPharmacy.csproj.GenerateResource.cache
+C:\Users\car18110827\Documents\GitHub\BAD-Project\LloydsPharmacy\LloydsPharmacy\obj\Debug\LloydsPharmacy.csproj.CoreCompileInputs.cache
+C:\Users\car18110827\Documents\GitHub\BAD-Project\LloydsPharmacy\LloydsPharmacy\obj\Debug\LloydsPharmacy.csproj.CopyComplete
+C:\Users\car18110827\Documents\GitHub\BAD-Project\LloydsPharmacy\LloydsPharmacy\obj\Debug\LloydsPharmacy.exe
+C:\Users\car18110827\Documents\GitHub\BAD-Project\LloydsPharmacy\LloydsPharmacy\obj\Debug\LloydsPharmacy.pdb
+D:\Desktop\BAD-Project\LloydsPharmacy\LloydsPharmacy\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+D:\Desktop\BAD-Project\LloydsPharmacy\LloydsPharmacy\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+D:\Desktop\BAD-Project\LloydsPharmacy\LloydsPharmacy\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+D:\Desktop\BAD-Project\LloydsPharmacy\LloydsPharmacy\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+D:\Desktop\BAD-Project\LloydsPharmacy\LloydsPharmacy\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+D:\Desktop\BAD-Project\LloydsPharmacy\LloydsPharmacy\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+D:\Desktop\BAD-Project\LloydsPharmacy\LloydsPharmacy\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+D:\Desktop\BAD-Project\LloydsPharmacy\LloydsPharmacy\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+D:\Desktop\BAD-Project\LloydsPharmacy\LloydsPharmacy\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+D:\Desktop\BAD-Project\LloydsPharmacy\LloydsPharmacy\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+D:\Desktop\BAD-Project\LloydsPharmacy\LloydsPharmacy\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+D:\Desktop\BAD-Project\LloydsPharmacy\LloydsPharmacy\bin\Debug\ShockwaveFlashObjects.dll
+D:\Desktop\BAD-Project\LloydsPharmacy\LloydsPharmacy\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+D:\Desktop\BAD-Project\LloydsPharmacy\LloydsPharmacy\bin\Debug\stdole.dll
+D:\Documents\BACKUPS\NWRC Backup 2018 - 2020\USB 2nd Year\Visual Programming\BAD-Project\LloydsPharmacy\LloydsPharmacy\bin\Debug\LloydsPharmacy.exe.config
+D:\Documents\BACKUPS\NWRC Backup 2018 - 2020\USB 2nd Year\Visual Programming\BAD-Project\LloydsPharmacy\LloydsPharmacy\bin\Debug\LloydsPharmacy.exe
+D:\Documents\BACKUPS\NWRC Backup 2018 - 2020\USB 2nd Year\Visual Programming\BAD-Project\LloydsPharmacy\LloydsPharmacy\bin\Debug\LloydsPharmacy.pdb
+D:\Documents\BACKUPS\NWRC Backup 2018 - 2020\USB 2nd Year\Visual Programming\BAD-Project\LloydsPharmacy\LloydsPharmacy\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+D:\Documents\BACKUPS\NWRC Backup 2018 - 2020\USB 2nd Year\Visual Programming\BAD-Project\LloydsPharmacy\LloydsPharmacy\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+D:\Documents\BACKUPS\NWRC Backup 2018 - 2020\USB 2nd Year\Visual Programming\BAD-Project\LloydsPharmacy\LloydsPharmacy\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+D:\Documents\BACKUPS\NWRC Backup 2018 - 2020\USB 2nd Year\Visual Programming\BAD-Project\LloydsPharmacy\LloydsPharmacy\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+D:\Documents\BACKUPS\NWRC Backup 2018 - 2020\USB 2nd Year\Visual Programming\BAD-Project\LloydsPharmacy\LloydsPharmacy\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+D:\Documents\BACKUPS\NWRC Backup 2018 - 2020\USB 2nd Year\Visual Programming\BAD-Project\LloydsPharmacy\LloydsPharmacy\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+D:\Documents\BACKUPS\NWRC Backup 2018 - 2020\USB 2nd Year\Visual Programming\BAD-Project\LloydsPharmacy\LloydsPharmacy\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+D:\Documents\BACKUPS\NWRC Backup 2018 - 2020\USB 2nd Year\Visual Programming\BAD-Project\LloydsPharmacy\LloydsPharmacy\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+D:\Documents\BACKUPS\NWRC Backup 2018 - 2020\USB 2nd Year\Visual Programming\BAD-Project\LloydsPharmacy\LloydsPharmacy\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+D:\Documents\BACKUPS\NWRC Backup 2018 - 2020\USB 2nd Year\Visual Programming\BAD-Project\LloydsPharmacy\LloydsPharmacy\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+D:\Documents\BACKUPS\NWRC Backup 2018 - 2020\USB 2nd Year\Visual Programming\BAD-Project\LloydsPharmacy\LloydsPharmacy\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+D:\Documents\BACKUPS\NWRC Backup 2018 - 2020\USB 2nd Year\Visual Programming\BAD-Project\LloydsPharmacy\LloydsPharmacy\bin\Debug\ShockwaveFlashObjects.dll
+D:\Documents\BACKUPS\NWRC Backup 2018 - 2020\USB 2nd Year\Visual Programming\BAD-Project\LloydsPharmacy\LloydsPharmacy\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+D:\Documents\BACKUPS\NWRC Backup 2018 - 2020\USB 2nd Year\Visual Programming\BAD-Project\LloydsPharmacy\LloydsPharmacy\bin\Debug\stdole.dll
+D:\Documents\BACKUPS\NWRC Backup 2018 - 2020\USB 2nd Year\Visual Programming\BAD-Project\LloydsPharmacy\LloydsPharmacy\obj\Debug\LloydsPharmacy.csprojAssemblyReference.cache
+D:\Documents\BACKUPS\NWRC Backup 2018 - 2020\USB 2nd Year\Visual Programming\BAD-Project\LloydsPharmacy\LloydsPharmacy\obj\Debug\LloydsPharmacy.frmCourses.resources
+D:\Documents\BACKUPS\NWRC Backup 2018 - 2020\USB 2nd Year\Visual Programming\BAD-Project\LloydsPharmacy\LloydsPharmacy\obj\Debug\LloydsPharmacy.frmMenu.resources
+D:\Documents\BACKUPS\NWRC Backup 2018 - 2020\USB 2nd Year\Visual Programming\BAD-Project\LloydsPharmacy\LloydsPharmacy\obj\Debug\LloydsPharmacy.frmMinorAilments.resources
+D:\Documents\BACKUPS\NWRC Backup 2018 - 2020\USB 2nd Year\Visual Programming\BAD-Project\LloydsPharmacy\LloydsPharmacy\obj\Debug\LloydsPharmacy.frmOrderAilments.resources
+D:\Documents\BACKUPS\NWRC Backup 2018 - 2020\USB 2nd Year\Visual Programming\BAD-Project\LloydsPharmacy\LloydsPharmacy\obj\Debug\LloydsPharmacy.frmPatients.resources
+D:\Documents\BACKUPS\NWRC Backup 2018 - 2020\USB 2nd Year\Visual Programming\BAD-Project\LloydsPharmacy\LloydsPharmacy\obj\Debug\LloydsPharmacy.frmPrescriptions.resources
+D:\Documents\BACKUPS\NWRC Backup 2018 - 2020\USB 2nd Year\Visual Programming\BAD-Project\LloydsPharmacy\LloydsPharmacy\obj\Debug\LloydsPharmacy.frmSales.resources
+D:\Documents\BACKUPS\NWRC Backup 2018 - 2020\USB 2nd Year\Visual Programming\BAD-Project\LloydsPharmacy\LloydsPharmacy\obj\Debug\LloydsPharmacy.frmStaff.resources
+D:\Documents\BACKUPS\NWRC Backup 2018 - 2020\USB 2nd Year\Visual Programming\BAD-Project\LloydsPharmacy\LloydsPharmacy\obj\Debug\LloydsPharmacy.frmStaffCourse.resources
+D:\Documents\BACKUPS\NWRC Backup 2018 - 2020\USB 2nd Year\Visual Programming\BAD-Project\LloydsPharmacy\LloydsPharmacy\obj\Debug\LloydsPharmacy.Properties.Resources.resources
+D:\Documents\BACKUPS\NWRC Backup 2018 - 2020\USB 2nd Year\Visual Programming\BAD-Project\LloydsPharmacy\LloydsPharmacy\obj\Debug\LloydsPharmacy.frmStock.resources
+D:\Documents\BACKUPS\NWRC Backup 2018 - 2020\USB 2nd Year\Visual Programming\BAD-Project\LloydsPharmacy\LloydsPharmacy\obj\Debug\LloydsPharmacy.frmSuppliers.resources
+D:\Documents\BACKUPS\NWRC Backup 2018 - 2020\USB 2nd Year\Visual Programming\BAD-Project\LloydsPharmacy\LloydsPharmacy\obj\Debug\LloydsPharmacy.csproj.GenerateResource.cache
+D:\Documents\BACKUPS\NWRC Backup 2018 - 2020\USB 2nd Year\Visual Programming\BAD-Project\LloydsPharmacy\LloydsPharmacy\obj\Debug\LloydsPharmacy.csproj.CopyComplete
+D:\Documents\BACKUPS\NWRC Backup 2018 - 2020\USB 2nd Year\Visual Programming\BAD-Project\LloydsPharmacy\LloydsPharmacy\obj\Debug\LloydsPharmacy.exe
+D:\Documents\BACKUPS\NWRC Backup 2018 - 2020\USB 2nd Year\Visual Programming\BAD-Project\LloydsPharmacy\LloydsPharmacy\obj\Debug\LloydsPharmacy.pdb
