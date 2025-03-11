@@ -1,0 +1,64 @@
+package Assignment_Student_Management;
+
+public class _Result extends _Assignment implements java.io.Serializable {
+	
+	private String student, grade, feedback;
+	private int resultID;
+	
+	public _Result()
+	{
+		
+	}
+	
+	public _Result(int resultID, String student, String grade, String feedback, String assignmentCourse, String assignmentModule, 
+			String assignmentName, String assignmentDesc,String dateAssigned, int assignmentID)
+	{
+		super(assignmentID, assignmentCourse, assignmentModule, assignmentName, assignmentDesc, dateAssigned);
+		this.resultID = resultID;
+		this.student = student;
+		this.grade = grade;
+		this.feedback = feedback;
+	}
+	
+	
+	public String getStudent() {
+		return student;
+	}
+
+	public void setStudent(String student) {
+		this.student = student;
+	}
+
+	public String getGrade() {
+		return grade;
+	}
+
+	public void setGrade(String grade) {
+		this.grade = grade;
+	}
+
+	public String getFeedback() {
+		return feedback;
+	}
+
+	public void setFeedback(String feedback) {
+		this.feedback = feedback;
+	}
+
+	public int getResultID() {
+		return resultID;
+	}
+
+	public void setResultID(int resultID) {
+		this.resultID = resultID;
+	}
+
+
+	
+	
+	
+	
+	
+	
+
+}

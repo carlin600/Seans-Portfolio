@@ -1,3 +1,0 @@
-INDEX VERSION 1.130+C:\Users\Temporary\OneDrive - Edge Hill University\OOP - CIS2149\Assignment 1\CW1_01\.metadata\.plugins\org.eclipse.jdt.core
-2223630917.index
-3822153862.index

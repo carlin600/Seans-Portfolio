@@ -1,0 +1,57 @@
+package Assignment_Student_Management;
+
+import java.awt.Image;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+
+import javax.swing.*;
+import javax.swing.UIManager;
+import javax.swing.UIManager.LookAndFeelInfo;
+
+public class System_Menu_Test extends JFrame implements ActionListener {
+	
+	
+	//icon
+	
+	
+	
+	
+	public static void main(String[] args)
+	{
+		
+			ImageIcon img = new ImageIcon("C:\\Users\\Temporary\\OneDrive - Edge Hill University\\OOP - CIS2149\\Eclipse Library\\Tutorials - Practice\\src\\Assignment_Student_Management\\EHU.jpg");
+			
+
+			try
+			{
+				for(LookAndFeelInfo info : UIManager.getInstalledLookAndFeels())
+				{
+					if("Nimbus".equals(info.getName()))
+					{
+						UIManager.setLookAndFeel(info.getClassName());
+						break;
+					}
+				}
+			} catch (Exception e1)	{
+				
+			}
+			
+			System_Menu SM = new System_Menu();
+			SM.setTitle("EHU User Management - © Sean Carlin ");
+			SM.setIconImage(img.getImage());
+			SM.setSize(1000,600);
+			SM.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+			SM.setVisible(true);
+			SM.setResizable(false);
+			SM.setLocationRelativeTo(null);
+		
+		
+	}
+
+	@Override
+	public void actionPerformed(ActionEvent arg0) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

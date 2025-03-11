@@ -1,0 +1,64 @@
+package Assignment_Student_Management;
+
+public class _Academic extends _Staff {
+
+	private int academicCode;
+	private String  areaExpertise, studentSupervised;
+	
+	public _Academic()
+	{
+		
+	}
+	public _Academic(int academicCode, String areaExpertise, String studentSupervised, int staffID, String name, String officeLocation, String officeHours, String position, String employmentStatus,String personalWebsite)
+	{
+		super(staffID, name,  officeLocation,  officeHours,  position,  employmentStatus, personalWebsite);
+		this.academicCode = academicCode;
+		this.areaExpertise = areaExpertise;
+		this.studentSupervised = studentSupervised;
+		
+	}
+	
+
+
+	public int getAcademicCode() {
+		return academicCode;
+	}
+
+	public void setAcademicCode(int academicCode) {
+		this.academicCode = academicCode;
+	}
+
+	public String getAreaExpertise() {
+		return areaExpertise;
+	}
+
+	public void setAreaExpertise(String areaExpertise) {
+		this.areaExpertise = areaExpertise;
+	}
+
+	public String getStudentSupervised() {
+		return studentSupervised;
+	}
+
+	public void setStudentSupervised(String studentSupervised) {
+		this.studentSupervised = studentSupervised;
+	}
+
+
+
+		//tostrings so the class properties can be put on display
+		public String toString() {
+			return String.format(this.getName());
+			}
+		
+
+		public String toDisplay() {
+			return String.format(this.getName() + " " + this.getAcademicCode() + " " + this.getAreaExpertise() + " " + this.getStudentSupervised());
+			}
+		
+		public String toDisplayFull() {
+			return String.format(this.getStaffID() + " " + this.getName() + " " +this.getAcademicCode() + " " + this.getAreaExpertise() + " " + this.getStudentSupervised() + " " + this.getOfficeLocation() + " " + this.getOfficeHours() + " " + this.getPosition() + " " + 
+					this.getEmploymentStatus() + "" + this.getPersonalWebsite());
+			}
+	
+}

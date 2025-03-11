@@ -1,0 +1,104 @@
+package Assignment_Student_Management;
+
+public class _Student implements java.io.Serializable {
+	
+	private int studentID;
+	private String name, year, course, gender;
+	Object[] modulesTaken;
+	
+	public _Student() {
+		
+	}
+	
+	public _Student(int studentID, String name, String year, String course, Object[] modulesTaken, String gender)
+	{
+		this.studentID = studentID;
+		this.name = name;
+		this.year = year;
+		this.course = course;
+		this.modulesTaken = modulesTaken;
+		this.gender = gender;
+	}
+	
+	
+
+	public int getStudentID() {
+		return studentID;
+	}
+
+	public void setStudentID(int studentID) {
+		this.studentID = studentID;
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) throws _ApplicantException {
+		if(name.length() < 3 )
+			throw new _ApplicantException("Please Enter a Valid Name!");
+		else
+		this.name = name;
+	}
+
+	public String getYear() {
+		return year;
+	}
+
+	public void setYear(String year) {
+		this.year = year;
+	}
+
+	public String getCourse() {
+		return course;
+	}
+
+	public void setCourse(String course) {
+		this.course = course;
+	}
+
+	public Object[] getModulesTaken() {
+		return modulesTaken;
+	}
+
+	public void setModulesTaken(Object[] modules) {
+		this.modulesTaken = modules;
+	}
+
+	public String getGender() {
+		return gender;
+	}
+
+	public void setGender(String gender) {
+		this.gender = gender;
+	}
+
+	
+	 public String toString(){
+	        return ""+ this.getName();
+
+	    }
+	 
+	 public String toDisplay(){
+	        return this.getStudentID() + "";
+	    }
+	 
+	 public String toDisplayFull(){
+	        return "" + this.getStudentID() + " " + this.getName() + " " + this.getYear() + " " + this.getCourse() 
+	        + " " + this.getModulesTaken() + " " + this.getGender() + "\n";
+	    }
+	 
+	 public String toDetails(){
+	        return "" + this.getStudentID() + "\n " + this.getName() + "\n " + this.getYear() + "\n " + this.getCourse() 
+	        + "\n " + this.getModulesTaken() + "\n " + this.getGender() + "\n";
+	    }
+	//tostrings so the class properties can be put on display
+	/*public String toDisplay() {
+		return String.format("." ,this.studentID, this.name, this.year, this.course, this.modulesTaken this.gender);
+	}*/
+	
+	//may include another
+	
+	 
+
+}

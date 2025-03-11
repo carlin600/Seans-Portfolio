@@ -1,0 +1,94 @@
+package Assignment_Student_Management;
+
+public class _Assignment implements java.io.Serializable {
+	
+	private String assignmentCourse, assignmentModule, assignmentName, assignmentDesc, dateAssigned;
+	private int assignmentID;
+
+	
+	
+	public _Assignment() {
+		
+	}
+		
+	public _Assignment(int assignmentID, String assignmentCourse, String assignmentModule, String assignmentName, String assignmentDesc,
+			String dateAssigned) {
+		
+		this.assignmentName = assignmentName;
+		this.assignmentID = assignmentID;
+		this.assignmentCourse = assignmentCourse;
+		this.assignmentModule = assignmentModule;
+		this.assignmentDesc = assignmentDesc;
+		this.dateAssigned = dateAssigned;
+		
+			
+	}
+
+	public int getAssignmentID() {
+		return assignmentID;
+	}
+
+	public void setAssignmentID(int assignmentID) {
+		this.assignmentID = assignmentID;
+	}
+	
+	public String getAssignmentCourse() {
+		return assignmentCourse;
+	}
+
+	public void setAssignmentCourse(String assignmentCourse) {
+		this.assignmentCourse = assignmentCourse;
+	}
+
+	public String getAssignmentModule() {
+		return assignmentModule;
+	}
+
+	public void setAssignmentModule(String assignmentModule) {
+		this.assignmentModule = assignmentModule;
+	}
+
+	public String getAssignmentName() {
+		return assignmentName;
+	}
+
+	public void setAssignmentName(String assignmentName)throws _ApplicantException {
+		if(assignmentName.length() < 3 )
+			throw new _ApplicantException("Please Enter a Valid Name!");
+		else {
+		this.assignmentName = assignmentName;
+		}
+	}
+
+	public String getAssignmentDesc() {
+		return assignmentDesc;
+	}
+
+	public void setAssignmentDesc(String assignmentDesc) {
+		this.assignmentDesc = assignmentDesc;
+	}
+
+	public String getDateAssigned() {
+		return dateAssigned;
+	}
+
+	public void setDateAssigned(String dateAssigned) {
+		this.dateAssigned = dateAssigned;
+	}
+
+	
+	
+	 public String toString(){
+	        return this.getAssignmentID() + "" + this.getAssignmentName();
+
+	    }
+	 
+	 public String toDetails(){
+	        return this.getAssignmentID() + "\n" + this.getAssignmentName() + "\n" + this.getAssignmentCourse() + "\n" + 
+	        		this.getAssignmentModule() + "\n" + this.getDateAssigned() + "\n" + this.getAssignmentDesc();
+
+	    }
+	 
+	 
+	 
+}

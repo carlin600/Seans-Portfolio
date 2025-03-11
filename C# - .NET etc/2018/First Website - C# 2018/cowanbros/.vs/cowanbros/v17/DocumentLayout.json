@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Documents\\Seans-Portfolio\\C#\\2018\\First Website - C# 2018\\cowanbros\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CA5D991F-2299-496B-8AF0-6711738F61E3}|cowanbros\\cowanbros.csproj|d:\\documents\\seans-portfolio\\c#\\2018\\first website - c# 2018\\cowanbros\\cowanbros\\master.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
+      "RelativeMoniker": "D:0:0:{CA5D991F-2299-496B-8AF0-6711738F61E3}|cowanbros\\cowanbros.csproj|solutionrelative:cowanbros\\master.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "master.Master",
+              "DocumentMoniker": "D:\\Documents\\Seans-Portfolio\\C#\\2018\\First Website - C# 2018\\cowanbros\\cowanbros\\master.Master",
+              "RelativeDocumentMoniker": "cowanbros\\master.Master",
+              "ToolTip": "D:\\Documents\\Seans-Portfolio\\C#\\2018\\First Website - C# 2018\\cowanbros\\cowanbros\\master.Master",
+              "RelativeToolTip": "cowanbros\\master.Master",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-03-11T03:06:21.459Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

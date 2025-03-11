@@ -1,0 +1,61 @@
+package Assignment_Student_Management;
+
+public class _Tutor extends _Staff {
+	
+	private int tutorCode;
+	Object[] modulesTaught;
+	private String course;
+
+	public _Tutor()
+	{
+		
+	}
+	public _Tutor(int tutorCode, Object[] modulesTaught,String course, int staffID, String name, String officeLocation, String officeHours,  String position, String employmentStatus,String personalWebsite)
+	{
+		super(staffID, name,  officeLocation,  officeHours,   position,  employmentStatus, personalWebsite);
+		this.tutorCode = tutorCode;
+		this.modulesTaught = modulesTaught;
+		this.course = course;
+	}
+
+
+
+
+		public int getTutorCode() {
+		return tutorCode;
+	}
+	public void setTutorCode(int tutorCode) {
+		this.tutorCode = tutorCode;
+	}
+	public Object[] getModulesTaught() {
+		return modulesTaught;
+	}
+	public void setModulesTaught(Object[] modulesTaught) {
+		this.modulesTaught = modulesTaught;
+	}
+	public String getCourse() {
+		return course;
+	}
+	public void setCourse(String course) {
+		this.course = course;
+	}
+	
+	//tostrings so the class properties can be put on display
+	public String toString() {
+		return String.format(this.getName());
+	}
+	
+	public String toDisplay() {
+		return String.format(this.getStaffID() + " " + this.getTutorCode() + " " + this.getName() + " " + this.getModulesTaught() + " " + this.getCourse() + "\n");
+	}
+	
+	public String toDisplayFull() {
+		return String.format(this.getStaffID() + "" + this.getTutorCode() + "" + this.getModulesTaught() + "" + this.getCourse() + "" + this.getName() + "" + this.getOfficeLocation() + "" + this.getOfficeHours() + "" + 
+				 this.getPosition() + "" + this.getEmploymentStatus() + "" + this.getPersonalWebsite() + "");
+	}
+	
+	/*public String toDisplayFull() {
+		return String.format(this.getStaffID() + "\n" + this.getTutorCode() + "\n" + this.getModulesTaught() + "\n" + this.getCourse() + "\n" + this.getName() + "\n" + this.getOfficeLocation() + "\n" + this.getOfficeHours() + "\n" + 
+				 this.getPosition() + "\n" + this.getEmploymentStatus() + "\n" + this.getPersonalWebsite() + "\n");*/
+	}
+

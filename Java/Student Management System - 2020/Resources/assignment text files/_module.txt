@@ -1,0 +1,98 @@
+package Assignment_Student_Management;
+
+public class _Module implements java.io.Serializable {
+
+	//might extend course
+	
+	//declaring variables
+	private String moduleName, leader, moderator, relatedCourse;
+	private int moduleCode;
+	
+
+	public _Module()
+	{
+		
+	}
+	
+	public _Module(Integer moduleCode, String moduleName, String leader, String moderator, String relatedCourse)
+	{
+		this.moduleCode = moduleCode;
+		this.moduleName = moduleName;
+		this.leader = leader;
+		this.moderator = moderator;
+		this.relatedCourse = relatedCourse;
+	}
+
+	
+	public Integer getModuleCode() {
+		return moduleCode;
+	}
+
+
+	public void setModuleCode(Integer moduleCode) {
+		this.moduleCode = moduleCode;
+	}
+
+
+	public String getModuleName() {
+		return moduleName;
+	}
+
+
+	public void setModuleName(String moduleName)throws _ApplicantException {
+		if(moduleName.length() < 3 )
+			throw new _ApplicantException("Please Enter a Valid Name!");
+		else 
+		this.moduleName = moduleName;
+	}
+
+
+	public String getLeader() {
+		return leader;
+	}
+
+
+	public void setLeader(String leader) {
+		this.leader = leader;
+	}
+
+
+	public String getModerator() {
+		return moderator;
+	}
+
+	public void setModerator(String moderator) {
+		this.moderator = moderator;
+	}
+	
+
+	public void setRelatedCourse(String relatedCourse) {
+		this.relatedCourse = relatedCourse;
+	}
+	
+	public String getRelatedCourse() {
+		return relatedCourse;
+	}
+
+
+
+
+
+	//tostrings so the class properties can be put on display
+	public String toString() {
+		return String.format(this.getModuleName());
+	}
+	
+	public String toDisplay() {
+		return String.format(this.getModuleCode() + "" + this.getModuleName()+ "" + this.getLeader() + "" + 
+	this.getModerator() + "" + this.getRelatedCourse() + "\n" );
+	}
+	
+	//may include another
+
+	
+	
+	
+	
+	
+}

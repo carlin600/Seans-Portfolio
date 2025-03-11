@@ -1,0 +1,110 @@
+package Assignment_Student_Management;
+
+import java.awt.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+import java.util.*;
+import javax.swing.*;
+
+public class Show_Assignments extends JFrame implements ActionListener {
+
+	private JLabel lblHeader, lblCourse, lblModule;
+	private JComboBox cmbCourse, cmbModules;
+	private DefaultComboBoxModel[] options = new DefaultComboBoxModel[10];
+	private JPanel centre;
+	private JButton btnExit;
+	private JTextArea taDisplay;
+	
+	private TreeMap<Integer, _Assignment> assignments;
+	private TreeMap<Integer, _Course> courses;
+	private TreeMap<Integer, _Module> modules;
+
+
+	public Show_Assignments(TreeMap<Integer, _Assignment> assignmentsIn, TreeMap<Integer, _Module> modulesIn, TreeMap<Integer, _Course> coursesIn)
+	{
+		
+		assignments = assignmentsIn;
+		modules = modulesIn;
+		courses = coursesIn;
+		
+		
+		lblHeader = new JLabel("Display Assignments", JLabel.CENTER);
+		lblHeader.setFont(new Font("Calibri", Font.BOLD, 20));
+		lblCourse = new JLabel("Select Course Assignments:", JLabel.RIGHT);
+		lblCourse.setFont(new Font("Calibri", Font.BOLD, 18));
+		lblModule = new JLabel("Select Module:", JLabel.RIGHT);
+		lblModule.setFont(new Font("Calibri", Font.BOLD, 18));
+		
+		
+		taDisplay = new JTextArea(20,20);
+		taDisplay.setEditable(false);
+		
+		btnExit = new JButton("Exit");
+		btnExit.setFont(new Font("Calibri", Font.BOLD, 16));
+		btnExit.addActionListener(this);
+		
+		
+		ArrayList<_Course>courseArray = new ArrayList<_Course>();
+		Set<Map.Entry<Integer, _Course>> coursestored = courses.entrySet();
+		for(Map.Entry<Integer, _Course> coursesStored : coursestored)
+		{
+			courseArray.add(coursesStored.getValue());
+		}
+		
+		ArrayList<_Module>moduleArray = new ArrayList<_Module>();
+		Set<Map.Entry<Integer, _Module>> modulestored = modules.entrySet();
+		
+		for(Map.Entry<Integer, _Module> modulesStored : modulestored)
+		{
+			moduleArray.add(modulesStored.getValue());
+		}	
+		
+		cmbCourse = new JComboBox();
+		cmbCourse.addActionListener(this);
+		cmbModules = new JComboBox();
+		cmbModules.addActionListener(this);
+		
+		
+		Container main = getContentPane();
+		main.setLayout(new GridBagLayout());
+		main.setBackground(Color.CYAN);
+		
+		centre = new JPanel();
+		centre.setLayout(new GridBagLayout());
+		centre.setBackground(Color.CYAN);
+
+		addComp(centre,			main		,1,1,1,1,1,1);
+		addComp(lblHeader,		centre		,1,2,4,1,1,1);
+		addComp(lblCourse,		centre		,1,3,1,1,1,1);
+		addComp(cmbCourse,		centre		,2,3,1,1,1,1);
+		addComp(lblModule,		centre		,3,3,1,1,1,1);
+		addComp(cmbModules,		centre		,4,3,1,1,1,1);
+		addComp(taDisplay,		centre		,1,4,4,4,4,4);
+		addComp(btnExit,		centre		,1,8,4,1,1,1);
+		
+
+	}
+
+	
+	private void addComp(Component c, Container main, int gridX, int gridY, int width, int height, int weightX, int weightY)
+	{
+		GridBagConstraints gc = new GridBagConstraints(); //creates constraints object gc
+		gc.fill = GridBagConstraints.BOTH;
+		gc.insets = new Insets(8,8,8,8);
+		gc.gridx = gridX;
+		gc.gridy = gridY;
+		gc.gridwidth = width;
+		gc.gridheight = height;
+		gc.weightx = weightX;
+		gc.weighty = weightY;
+		
+		getContentPane().add(c, gc); //adds components to the gridbag
+	}
+	
+	@Override
+	public void actionPerformed(ActionEvent arg0) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

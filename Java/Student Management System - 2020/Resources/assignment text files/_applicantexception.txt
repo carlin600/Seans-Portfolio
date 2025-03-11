@@ -1,0 +1,20 @@
+package Assignment_Student_Management;
+
+public class _ApplicantException extends Exception {
+
+	
+private String message;
+	
+	_ApplicantException(String s)
+	{
+		message = s;
+	}
+	_ApplicantException()
+	{
+		message = "Invalid Data Entered";
+	}
+	public String toString()
+	{
+		return "**Applicant Exception: " + message;
+	}
+}

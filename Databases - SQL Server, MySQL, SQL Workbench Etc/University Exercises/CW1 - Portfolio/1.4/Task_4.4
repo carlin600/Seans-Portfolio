@@ -1,0 +1,69 @@
+
+<!ELEMENT movies (movie+)>
+	<!ELEMENT movie (budget,genre*,home_page,keyword*,original_language,original_title,overview,popularity,production_company*,production_country*,release_date,revenue,runtime,spoken_language*,release_status,tagline,title,vote_average,vote_count)>
+		<!ATTLIST movie id CDATA #REQUIRED>
+	
+	<!ELEMENT budget (#PCDATA)>
+		<!ATTLIST budget budget CDATA #IMPLIED>
+
+	<!ELEMENT genre (#PCDATA)>
+		<!ATTLIST genre genre_id CDATA #REQUIRED
+							genre CDATA #IMPLIED>
+							
+	<!ELEMENT home_page (#PCDATA)>
+		<!ATTLIST home_page home_page CDATA #IMPLIED>
+			
+	<!ELEMENT keyword (#PCDATA)>
+		<!ATTLIST keyword keyword_id CDATA #REQUIRED
+						keyword_id CDATA #REQUIRED>
+
+	<!ELEMENT original_language (#PCDATA)>
+		<!ATTLIST original_language original_language CDATA #IMPLIED>
+		
+	<!ELEMENT original_title (#PCDATA)>
+		<!ATTLIST original_title original_title CDATA #IMPLIED>
+
+	<!ELEMENT overview (#PCDATA)>
+		<!ATTLIST overview overview CDATA #IMPLIED>
+
+	<!ELEMENT popularity (#PCDATA)>
+		<!ATTLIST popularity popularity CDATA #IMPLIED>
+
+	<!ELEMENT production_company (#PCDATA)>
+		<!ATTLIST production_company production_company_id CDATA #REQUIRED
+									production_company CDATA #IMPLIED>
+							
+	<!ELEMENT production_country (#PCDATA)>
+		<!ATTLIST production_country production_country_iso_code CDATA #REQUIRED
+											production_country CDATA #IMPLIED>
+							
+	<!ELEMENT release_date (#PCDATA)>
+		<!ATTLIST release_date release_date CDATA #IMPLIED>
+			
+	<!ELEMENT revenue (#PCDATA)>
+		<!ATTLIST revenue revenue CDATA #IMPLIED>
+			
+	<!ELEMENT runtime (#PCDATA)>
+		<!ATTLIST runtime runtime CDATA #IMPLIED>
+			
+	<!ELEMENT spoken_language (#PCDATA)>
+		<!ATTLIST spoken_language spoken_language_iso_code CDATA #REQUIRED
+										spoken_language CDATA #IMPLIED>
+	
+	<!ELEMENT release_status (#PCDATA)>
+		<!ATTLIST release_date release_date CDATA #REQUIRED>	
+	
+	<!ELEMENT tagline (#PCDATA)>
+		<!ATTLIST tagline tagline CDATA #IMPLIED>	
+	
+	<!ELEMENT title (#PCDATA)>
+		<!ATTLIST title title CDATA #IMPLIED>		
+				
+	<!ELEMENT vote_average (#PCDATA)>
+		<!ATTLIST vote_average vote_average CDATA #IMPLIED>
+	
+	<!ELEMENT vote_count (#PCDATA)>
+		<!ATTLIST vote_count vote_count CDATA #IMPLIED>
+				
+			
+	

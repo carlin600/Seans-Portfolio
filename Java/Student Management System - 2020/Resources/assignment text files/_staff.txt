@@ -1,0 +1,94 @@
+package Assignment_Student_Management;
+
+public class _Staff implements java.io.Serializable {
+	
+	private int staffID;
+	private String name, officeLocation, officeHours, position, employmentStatus, personalWebsite;
+	
+	public _Staff()
+	{
+		
+	}
+	
+	public _Staff(int staffID, String name, String officeLocation, String officeHours,  String position, String employmentStatus,String personalWebsite)
+	{
+		this.staffID = staffID;
+		this.name = name;
+		this.officeLocation = officeLocation;
+		this.officeHours = officeHours;
+		this.position = position;
+		this.employmentStatus = employmentStatus;
+		this.personalWebsite = personalWebsite;
+		
+	}
+
+	public int getStaffID() {
+		return staffID;
+	}
+
+	public void setStaffID(int staffID) {
+		this.staffID = staffID;
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) throws _ApplicantException {
+		if(name.length() < 3 )
+			throw new _ApplicantException("Please Enter a Valid Name!");
+		else
+		this.name = name;	}
+
+	public String getOfficeLocation() {
+		return officeLocation;
+	}
+
+	public void setOfficeLocation(String officeLocation) {
+		this.officeLocation = officeLocation;
+	}
+
+	public String getOfficeHours() {
+		return officeHours;
+	}
+
+	public void setOfficeHours(String officeHours) {
+		this.officeHours = officeHours;
+	}
+	
+
+	public String getPosition() {
+		return position;
+	}
+
+	public void setPosition(String position) {
+		this.position = position;
+	}
+
+	public String getEmploymentStatus() {
+		return employmentStatus;
+	}
+
+	public void setEmploymentStatus(String employmentStatus) {
+		this.employmentStatus = employmentStatus;
+	}
+
+	public String getPersonalWebsite() {
+		return personalWebsite;
+	}
+
+	public void setPersonalWebsite(String personalWebsite) {
+		this.personalWebsite = personalWebsite;
+	}
+	
+	//tostrings so the class properties can be put on display
+	public String toString() {
+		return String.format(" " + this.getStaffID() + " " + this.getName() + " " + this.getOfficeLocation() + " " + this.getOfficeHours() + " " + 
+	 this.getPosition() + " " + this.getEmploymentStatus() + "" + this.getPersonalWebsite());
+	}
+	
+
+	
+	
+
+}
